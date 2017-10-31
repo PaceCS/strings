@@ -7,8 +7,10 @@ function countVowels(inString) {
 
 }
 
-countVowels('Hello');
-countVowels('My name is Sarah');
+
+
+
+
 
 
 
