@@ -1,6 +1,6 @@
-# Arrays
+# Strings
 
-In this assignment, you will be working with strings via arrays.  You will be creating a function that transforms a string in each of the files **countVowels.js**, **snakeCase.js**, **reverseString.js**, and **palindrome.js**.  The
+In this assignment, you will be working with strings via arrays.  You will be creating a function that transforms a string in each of the files **countVowels.js**, **lowerCamelCase.js**, **reverseString.js**, and **palindrome.js**.  The
 
 ### countVowels
 The input to **countVowels** will be string.  Your function should log the string as well as the number of vowels in that string.
@@ -30,8 +30,8 @@ You entered 'My name is Sarah.'.
 It has 6 vowels.
 ```
 
-### snakeCase
-The input to **snakeCase** will be a string.  Your function should log the string as well as return the string in snake case.
+### lowerCamelCase
+The input to **lowerCamelCase** will be a string.  Your function should log the string as well as return the string in snake case.
 
 Input:
 
