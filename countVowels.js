@@ -1,16 +1,21 @@
-
-// the input to countVowels will be a string.
-// It will log the string as well as the number of vowels to the console.
-
 const vowels = ['a', 'e', 'i', 'o', 'u', 'y'];
 
+// The input to countVowels will be a string.
+// It will log the string as well as the number of vowels to the console.
 function countVowels(inString) {
 
-    
+
 }
 
 countVowels('Hello');
 countVowels('My name is Sarah');
+
+
+
+
+
+
+
 
 
 
