@@ -1,6 +1,6 @@
-// The input to snakeCase will be a string
-// It will log the string as well as the string converted to snake case
-function snakeCase(inString) {
+// The input to lowerCamelCase will be a string
+// It will log the string as well as the string converted to lower camel case
+function lowerCamelCase(inString) {
     console.log(`You entered '${inString}'.`);
     const arr = inString.split(' ');
     let outString = arr[0].toLowerCase();
@@ -9,10 +9,9 @@ function snakeCase(inString) {
         w = w[0].toUpperCase() + w.slice(1);
         outString += w;
     }
-    console.log(`In snake case, your string is ${outString}.`);
+    console.log(`In lower camel case, your string is ${outString}.`);
 }
 
-snakeCase("Hi there");
 
 
 
@@ -51,9 +50,9 @@ const result = ['hello', 'myNameIsSarah', 'howAreYou'];
 const log = [true, true];
 for (let i = 0; i < a.length; i += 1) {
     out = [];
-    snakeCase(a[i]);
+    lowerCamelCase(a[i]);
     log[0] = log[0] && (out[0] == `You entered '${a[i]}'.`);
-    log[1] = log[1] && (out[1] == `In snake case, your string is ${result[i]}.`);
+    log[1] = log[1] && (out[1] == `In lower camel case, your string is ${result[i]}.`);
 }
 printme(`\t did you properly return the user input?\t ${log[0]} `);
 printme(`\t did you properly return the number of vowels?\t ${log[1]}`);
