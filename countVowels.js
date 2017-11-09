@@ -13,7 +13,7 @@ function countVowels(inString) {
     // Your for loop should go through each letter of inString.
     for (/*Put conditions here*/) {
         // Check if the current letter is a vowel.
-        // You will need to put the current variable into the Array.includes method.
+        // You will need to put the current variable into the Array.prototype.includes method.
         if (vowels.includes(/*Put current letter here*/)) {
             // The letter is a vowel so add 1 to the count of vowels
             vowelCount += 1;
@@ -24,7 +24,7 @@ function countVowels(inString) {
     console.log();
 }
 
-
+// Try out your function here
 countVowels('Hello');
 countVowels('My name is Sarah.');
 
