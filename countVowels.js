@@ -21,7 +21,7 @@ function countVowels(inString) {
     }
 
     // Log the final result to the console.
-    console.log(`It has ${vowelCount} vowels.`);
+    console.log();
 }
 
 
