@@ -31,7 +31,7 @@ It has 6 vowels.
 ```
 
 ### lowerCamelCase
-The input to **lowerCamelCase** will be a string.  Your function should log the string as well as return the string in snake case.
+The input to **lowerCamelCase** will be a string.  Your function should log the string as well as return the string in lower camel case.
 
 Input:
 
@@ -42,7 +42,7 @@ Hello Joseph
 Output:
 ```
 You entered 'Hello Joseph'.
-In snake case, your string is helloJoseph.
+In lower camel case, your string is helloJoseph.
 ```
 ---
 
@@ -55,7 +55,62 @@ My name is Sarah
 Output:
 ```
 You entered 'My name is Sarah'.
-In snake case, your string is myNameIsSarah.
+In lower camel case, your string is myNameIsSarah.
+```
+
+### upperCamelCase
+The input to **upperCamelCase** will be a string.  Your function should log the string as well as return the string in upper camel case.
+
+Input:
+
+```
+Hello Joseph
+```
+
+Output:
+```
+You entered 'Hello Joseph'.
+In upper camel case, your string is HelloJoseph.
+```
+---
+
+Input:
+
+```
+My name is Sarah
+```
+
+Output:
+```
+You entered 'My name is Sarah'.
+In upper camel case, your string is MyNameIsSarah.
+```
+### snakeCase
+The input to **snakeCase** will be a string.  Your function should log the string as well as return the string in snake case.
+
+Input:
+
+```
+Hello Joseph
+```
+
+Output:
+```
+You entered 'Hello Joseph'.
+In snake case, your string is hello_joseph.
+```
+---
+
+Input:
+
+```
+My name is Sarah
+```
+
+Output:
+```
+You entered 'My name is Sarah'.
+In snake case, your string is my_name_is_sarah.
 ```
 
 ### reverseString

@@ -1,18 +1,40 @@
 // The input to lowerCamelCase will be a string
 // It will log the string as well as the string converted to lower camel case
 function lowerCamelCase(inString) {
-    console.log(`You entered '${inString}'.`);
+    // First log the user's string
+    console.log();
+
+    // You will first separate the words by using the split method
     const arr = inString.split(' ');
+
+    // Now make the first word lower case using the toLowerCase method
     let outString = arr[0].toLowerCase();
-    for (let i = 1; i < arr.length; i += 1) {
+
+    // Put in the conditions to have your for loop go through each word
+    for (let i = /*Put condition here*/; i < /*Put condition here*/; i += 1) {
+        // Let w reprsent the current word
         let w = arr[i];
-        w = w[0].toUpperCase() + w.slice(1);
-        outString += w;
+
+        //First capitalize the first letter of your word and store it in an output word
+        let wOut = w[0].toUpperCase();
+
+        //Put in the appropriate conditions to have your for loop go through each letter of the word
+        for (let j = /*Put condition here*/; j < /*Put condition here*/; j += 1) {
+            // Add these letters to your output word
+            wOut += w[j];
+        }
+
+        // Add each word to the string that you will return to the user
+        outString += wOut;
     }
-    console.log(`In lower camel case, your string is ${outString}.`);
+
+    // Return outString to the user
+    console.log();
 }
 
 
+lowerCamelCase("My first variable");
+lowerCamelCase("The variable to store the number");
 
 
 
