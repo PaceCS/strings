@@ -1,7 +1,7 @@
 // The input to upperCamelCase will be a string
 // It will log the string as well as the string converted to upper camel case
 function upperCamelCase(inString) {
-    
+
 }
 
 
@@ -49,4 +49,4 @@ for (let i = 0; i < a.length; i += 1) {
     log[1] = log[1] && (out[1] == `In upper camel case, your string is ${result[i]}.`);
 }
 printme(`\t did you properly return the user input?\t ${log[0]} `);
-printme(`\t did you properly return the number of vowels?\t ${log[1]}`);
+printme(`\t did you properly return the result?\t ${log[1]}`);

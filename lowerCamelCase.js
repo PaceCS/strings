@@ -77,4 +77,4 @@ for (let i = 0; i < a.length; i += 1) {
     log[1] = log[1] && (out[1] == `In lower camel case, your string is ${result[i]}.`);
 }
 printme(`\t did you properly return the user input?\t ${log[0]} `);
-printme(`\t did you properly return the number of vowels?\t ${log[1]}`);
+printme(`\t did you properly return the result?\t ${log[1]}`);
