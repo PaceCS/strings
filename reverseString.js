@@ -9,7 +9,7 @@ function reverseString(inString) {
     // This loop will start at the end of the string and add each successive letter to outString
     // Be careful! Your loop starts at the end
     for (let i = /*Put condition here*/; i  /*Put condition here*/; i -= 1) {
-        outString += inString[i];
+        outString += inString.charAt(i);
     }
 
     // Log the result to the console

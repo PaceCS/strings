@@ -16,13 +16,10 @@ function lowerCamelCase(inString) {
         let w = arr[i];
 
         //First capitalize the first letter of your word and store it in an output word
-        let wOut = w[0].toUpperCase();
+        let wOut = w.charAt(0).toUpperCase();
 
-        //Put in the appropriate conditions to have your for loop go through each letter of the word
-        for (let j = /*Put condition here*/; j < /*Put condition here*/; j += 1) {
-            // Add these letters to your output word
-            wOut += w[j];
-        }
+        //Put in the appropriate conditions to add the rest of the word
+        wOut += w.slice(/*Put condition here*/);
 
         // Add each word to the string that you will return to the user
         outString += wOut;
