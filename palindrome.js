@@ -1,7 +1,7 @@
-// The input to snakeCase will be a string
-// It will log the string as well as the string converted to snake case
+// The input to palindrome will be a string
+// It will log the string as well as whether the string is a palindrome or not
 function palindrome(inString) {
-    
+
 }
 
 palindrome('Hello');
